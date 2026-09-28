@@ -1,0 +1,54 @@
+name: "Notes"
+description: "A local Markdown knowledge base and reader."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_markdown_plus: ^1.0.0  # Modern replacement for flutter_markdown
+  path_provider: ^2.1.0
+  file_picker: ^13.1.0
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+# Launcher Icon Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_logo.svg"
+  min_sdk_android: 21
+  # For Android adaptive icons (recommended)
+  adaptive_icon_background: "#1e1e1e" # Or "#ffffff" for light theme
+  adaptive_icon_foreground: "assets/icons/app_logo.svg"
+
+# Splash Screen Configuration
+flutter_native_splash:
+  color: "#1e1e1e" # Background color while loading
+  image: "assets/icons/splash_logo.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/data/science/
+    - assets/data/dhamma/
+    - assets/data/learningflutter/
+    - assets/data/cooking/
+    - assets/data/culture/
+    - assets/data/weekendplan/

@@ -1,0 +1,71 @@
+# ==========================================
+# Miscellaneous & System
+# ==========================================
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ejournal.*
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# ==========================================
+# Local Environment & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Flutter / Dart / Pub
+# ==========================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated local configuration files (DO NOT COMMIT)
+/android/local.properties
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/linux/flutter/generated_script_includes.cmake
+/macos/Flutter/ephemeral/
+/windows/flutter/ephemeral/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio & Gradle
+/android/app/debug
+/android/app/profile
+/android/app/release
+.gradle/
+
+# Widget Preview
+.widget_preview/
